@@ -19,6 +19,6 @@ useHead({
   title: "Nuxt 3 - Iphones",
 });
 
-const iphones = ["iphone-12", "iphone-12-pro", "iphone-13", "iphone-13-pro"];
+const { data: iphones } = await useFetch('/api/iphone');
 
 </script>`
