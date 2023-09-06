@@ -2,7 +2,7 @@
   Profile Page
 </template>
 
-<script>
+<script setup>
 definePageMeta({
   layout: 'sidebar'
 })
