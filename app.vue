@@ -3,6 +3,7 @@
   <a @click="view('counter')">Counter</a>
 
   <div>
+    <NuxtPage />
     <LazyHomeWelcome v-if="page === 'home'" />
     <LazyCounter v-else-if="page === 'counter'" />
   </div>
